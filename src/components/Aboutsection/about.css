@@ -1,0 +1,47 @@
+.aboutSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+  background-image: URL("../../../public/asset/bg2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.aboutSection .content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  line-height: 1.5;
+}
+
+.aboutSection .content h1 span {
+  color: #1dafe8;
+  font-size: 3.5rem;
+  font-family: "Audiowide", sans-serif;
+}
+
+.aboutSection img {
+  width: 20rem;
+}
+
+@media (width<520px) {
+  .aboutSection {
+    flex-direction: column;
+    padding: 4rem 1rem;
+  }
+
+  .aboutSection .content {
+    width: 100%;
+  }
+
+  .aboutSection .content h1 span {
+    font-size: 2rem;
+  }
+
+  .aboutSection img {
+    width: 15rem;
+  }
+}

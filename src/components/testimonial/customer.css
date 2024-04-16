@@ -1,0 +1,65 @@
+.customer {
+  padding: 4rem 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.maincustomer {
+  overflow: visible;
+  margin: 2rem 0 4rem;
+}
+
+.star {
+  margin-top: 2rem;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  transition: all .5s ease-in-out;
+  border-radius: .5rem;
+  box-shadow: 0px 0px 1px 0px rgb(133, 133, 133,.8);
+}
+
+.star:hover{
+  box-shadow: 0px 0px 8px 0px rgb(160, 160, 160,.3);
+}
+
+.star p {
+  font-size: small;
+  width: 20rem;
+}
+
+.id b {
+  font-size: smaller;
+}
+
+.id img {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: aqua;
+  border-radius: 50%;
+}
+
+.id {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.container {
+  margin-left: 5.5rem;
+}
+
+.mySwiper{
+  padding: .5rem;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-pagination-bullets {
+  display: none;
+}
