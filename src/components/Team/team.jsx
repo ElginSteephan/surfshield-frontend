@@ -51,7 +51,7 @@ export default function team() {
               <b>{team.name}</b>
               <p>{team.position}</p>
               <div className="social">
-                <a href="">
+                <a href="https://www.linkedin.com/in/alan-sabu-john/">
                   <FaLinkedin />
                 </a>
                 <a href="">

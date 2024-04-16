@@ -40,7 +40,15 @@ function HeroBG() {
         <div className={`popUp ${showPopup ? "show" : ""}`} ref={popupRef}>
           <span className="title">
             <h1>Vulnerability Test report</h1>
-            <IoClose onClick={handleClose} size={30} />
+            {/* logic */}
+
+            {80 < 50 ? (
+              <p className="High">High</p>
+            ) : (
+              <p className="good">Low</p>
+            )}
+            {/* close button */}
+            <IoClose onClick={handleClose} size={30} /> 
           </span>
 
           <div className="popupContainer">
@@ -48,16 +56,7 @@ function HeroBG() {
               <h3>Risk Rating</h3>
               <Chart />
             </span>
-            <span>
-              <h3>Overall Risk</h3>
-              <div className="overall-Risk">
-                {80 < 50 ? (
-                  <p className="High">Site Completely Down...!</p>
-                ) : (
-                  <p className="good">Good</p>
-                )}
-              </div>
-            </span>
+            
           </div>
 
           <a className="knowMore" href="/">
