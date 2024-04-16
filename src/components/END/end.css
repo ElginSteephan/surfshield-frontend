@@ -1,0 +1,45 @@
+.navLogos {
+  width: 2rem;
+  height: 2rem;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 8rem;
+    
+
+}
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  
+}
+.logos p {
+  font-family: "Audiowide", sans-serif;
+}
+.links a {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: "Audiowide", sans-serif;
+}
+.policy {
+  border-top: 1px solid;
+  border-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem;
+  font-size: .6rem;
+  width: 100%;
+}
+
+.policy a {
+  padding: 0.5rem;
+  color: #000000;
+}

@@ -1,0 +1,25 @@
+.team{
+    margin-top: 8rem;
+    padding-left: 5rem;
+}
+
+.teambox{
+    padding-left: 5rem;
+    margin-top: 2.5rem;
+}
+
+.member{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    width: 18rem;
+    overflow: hidden;
+}
+.member .social{
+    display: flex;
+    gap: .5rem;
+}
+.member img{
+    width: 100%;
+object-fit: contain;
+}
